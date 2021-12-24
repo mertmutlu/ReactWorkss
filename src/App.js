@@ -1,8 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import ExpenseItem from './Components/ExpenseItem';
 
 function App() {
   return (
+    <div>
+      <h2>
+        Lets Get Started !
+      </h2>
+      <ExpenseItem></ExpenseItem>
+    </div>
+/*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,6 +27,7 @@ function App() {
         </a>
       </header>
     </div>
+    */
   );
 }
 
