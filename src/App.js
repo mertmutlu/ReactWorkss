@@ -9,6 +9,7 @@ function App() {
         Lets Get Started !
       </h2>
       <ExpenseItem></ExpenseItem>
+      <ExpenseItem></ExpenseItem>
     </div>
 /*
     <div className="App">
