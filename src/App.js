@@ -1,7 +1,8 @@
 //import logo from "./logo.svg";
 //import "./App.css";
 //import ExpenseDate from "./Components/ExpenseDate";
-import Expenses from "./Components/Expenses";
+import Expenses from "./Components/Expenses/Expenses";
+import React from "react";
 
 function App() {
   const expenses = [
